@@ -2,7 +2,17 @@
 
 - Docker is a platform for building, running and shipping out applications.
 
+| Container                                          | Virtual Machine                                  |
+| -------------------------------------------------- | ------------------------------------------------ |
+| An isolated environment for running an application | An abstraction of a machine. (Physical hardware) |
+| Need less hardware resources                       | Each VM needs a full-blown OS                    |
+| Start quickly                                      | Slow to start                                    |
+| Allow running multiple apps in isolation           | \*                                               |
+| Use OS of the host                                 | Resource intensive                               |
+
 ## Installing Docker container: Linux (Ubuntu 20.04 LTS)
+
+- Updating the Ubuntu package database.
 
 ```bash
     $ sudo apt-get update
@@ -98,5 +108,11 @@
 ## Deleting a Docker container:
 
 ```bash
-    docker rmi -f <IMAGE-ID>
+    $ docker rmi -f <IMAGE-ID>
+```
+
+## Getting an Ubuntu terminal in Docker container:
+
+```bash
+    $ docker run it ubuntu
 ```
