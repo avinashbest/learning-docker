@@ -1,4 +1,4 @@
-## Docker:
+## Docker :
 
 - Docker is a platform for building, running and shipping out applications.
 
@@ -24,7 +24,7 @@
     $ sudo apt install docker.io -y
 ```
 
-- Now that Docker is installed and running you should verify that everything is working okay. This can be done using the hello-world app. From the command line run:
+- Now that Docker is installed and running you should verify that everything is working okay. This can be done using the hello-world app. From the command line run :
 
 ```bash
     $ sudo docker run hello-world
@@ -32,7 +32,7 @@
 
 ![image](preview/image-1.png)
 
-- You can also check your docker version by using following commands.
+- You can also check your docker version by using following commands:
 
 ```bash
     $ docker version
